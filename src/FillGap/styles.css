@@ -1,0 +1,15 @@
+.fill-gap .gap {
+  display: inline-block;
+  min-width: 44px;
+  min-height: 24px;
+  background-color: gold;
+  border: 2px solid goldenrod;
+  border-radius: 3px;
+  margin-bottom: -0.5em;
+  cursor: pointer;
+}
+
+.fill-gap .gap__selected {
+  background-color: lightpink;
+  border: 2px solid salmon;
+}
