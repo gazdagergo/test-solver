@@ -3,13 +3,60 @@
   min-width: 44px;
   min-height: 24px;
   background-color: gold;
-  border: 2px solid goldenrod;
+  border: 2px solid gold;
   border-radius: 3px;
   margin-bottom: -0.5em;
   cursor: pointer;
+  line-height: 1.5em;
+  opacity: 0.6;
 }
 
 .fill-gap .gap__selected {
+  border-color: goldenrod;
+  opacity: 1;
+}
+
+.fill-gap .gap__filled {
+  background-color: lightgray;
+  border: 2px solid gray;
+  opacity: 1;
+}
+
+.solutions-wrap {
+  max-width: 200px;
+  margin: auto;
+  margin-top: 44px;
+  display: flex;
+}
+
+.solution {
+  background-color: lightgrey;
+  border: 2px solid grey;
+  padding: 3px 6px;
+  border-radius: 3px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.solution__picked {
+  color: transparent;
+  background-color: transparent;
+  border: 2px dashed gray;
+  opacity: 0.6;
+}
+
+.result {
+  margin-top: 44px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.result__correct {
+  color: darkgreen;
+  background-color: lightgreen;
+}
+
+.result__false {
+  color: darkred;
   background-color: lightpink;
-  border: 2px solid salmon;
 }
