@@ -7,7 +7,7 @@ class FillGap extends Component {
     gaps: [
       {
         id: 0,
-        awaits: "word",
+        awaits: "world",
         value: null
       },
       {
@@ -131,6 +131,7 @@ class FillGap extends Component {
               result__correct: result === 1,
               result__false: result === -1
             })}
+            onClick={() => window.location.reload()}
           >
             {result === 1 ? "Correct" : "False"}
           </div>
